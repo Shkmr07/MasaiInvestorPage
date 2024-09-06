@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.cont{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(4,minmax(100px,1fr));
+    gap: 15px;
+}
+
+main div > img:first-child{
+    width: 100%;
+}
+
+main div > img:last-child{
+    width: 50%;
+}
+
+.card{
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+}
+
+header img{
+
+    width: 30%;
+
+}
+
+header h1{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
